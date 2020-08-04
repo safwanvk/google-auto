@@ -13,3 +13,5 @@ search_input.send_keys('safwanvk')
 time.sleep(2)
 
 
+search_btn = browser.find_element_by_css_selector('input[type="submit"]')
+search_btn.click()
